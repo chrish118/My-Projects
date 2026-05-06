@@ -70,3 +70,47 @@ The goal was to create a room monitoring system displaying temperature and humid
 3. Verify OLED address and driver
 4. Rebuild wiring cleanly
 5. Reintegrate components step-by-step
+
+---
+
+## Updates 
+- Issue with the OLED. Replaced and bought a new one.
+- New OLED working perfectly fine
+- HELLO message displayed correctly! 
+---
+## Next steps
+Connect all the wiring and then test the 
+- Buzzer
+- OLED
+- DHT11
+---
+## Updates
+- OLED receiving feed but Temperature and Humidity data dissorted.
+---
+## Next steps 
+- Reduced the number of characters ||| It works perfectly now
+--- 
+## Functional Testing
+- Everything connect and powered. 
+- OLED live and receiving feed from DHT11.
+- Alert threshold set to 35°C, so no buzzer alert received.
+---
+### Buzzer Alert Test
+---
+The alert threshold was temporarily reduced to 33°C for testing.
+A lighter was briefly brought near the DHT11 sensor to increase the detected temperature.
+
+---
+
+### Result
+---
+- Temperature increased successfully
+- OLED updated alert status
+- Buzzer activated correctly once threshold was exceeded
+---
+### Conclusion
+---
+Sensor-to-output logic chain functions correctly.
+
+---
+---
