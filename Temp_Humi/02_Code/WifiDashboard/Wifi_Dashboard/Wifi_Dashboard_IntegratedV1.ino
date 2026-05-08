@@ -5,8 +5,8 @@
 #include <Adafruit_SSD1306.h>
 
 // -------- WIFI DETAILS --------
-const char* ssid = "Your_Wifi_Name";
-const char* password = "Your_Wifi_Pass";
+const char* ssid = "Sweeter-family";
+const char* password = "ja@WL40099748123";
 
 // -------- DHT11 --------
 #define DHTPIN 4
@@ -25,7 +25,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 WiFiServer server(80);
 
 // -------- ALERT TEMP --------
-float alertTemp = 33.0;
+float alertTemp = 35.0;
 
 void setup() {
   Serial.begin(115200);
